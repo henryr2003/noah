@@ -66,9 +66,9 @@ function App() {
 
 
         </div>
-        <div className='w-full h-100 bg-amber-100 text-center text-black grid grid-cols-1 grid-rows-[30px_auto_auto] place-items-center lg:grid-cols-2'   >
+        <div className='w-full h-100 bg-amber-100 text-center text-black grid grid-cols-1 grid-rows-[30px_auto_auto] place-items-center md:grid-cols-2'   >
 
-            <h2 className='pt-2 row-start-1 row-end-2 col-start-1 col-end-2 lg:col-end-3'> What Our Customers Have To Say </h2> 
+            <h2 className='pt-2 row-start-1 row-end-2 col-start-1 col-end-2 md:col-end-3'> What Our Customers Have To Say </h2> 
 
             <ReviewCard/>
 

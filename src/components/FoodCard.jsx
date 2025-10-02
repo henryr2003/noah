@@ -34,7 +34,7 @@ export default function FoodCard() {
             key={slide.id}
             className={`flex-shrink-0 w-full h-full flex flex-col items-center justify-end gap-5 text-white text-2xl pb-3 bg-amber-300`}
           >
-            <img className="w-auto h-70 rounded-2xl shadow-xl border-2 border-amber-600 max-[400px]:h-50 lg:h-80" src={images[index].src}/>
+            <img className="w-auto h-70 rounded-2xl shadow-xl border-2 border-amber-600 max-[400px]:h-50 md:h-80" src={images[index].src}/>
             <p className="text-2xl font-bold"> {images[index].name}</p>
           </div>
         ))}
