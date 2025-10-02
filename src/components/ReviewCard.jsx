@@ -19,7 +19,7 @@ function ReviewCard(){
     }, [])
    
 
-    const currentReviews = windowSize < 600 ? reviews.slice(0,2) : reviews;
+    const currentReviews = windowSize < 768 ? reviews.slice(0,2) : reviews;
 
     return(
 
