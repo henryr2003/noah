@@ -33,10 +33,10 @@ function App() {
        
         <nav className='fixed top-0 left-0 w-full h-12 bg-none flex text-black justify-center gap-10 items-center text-sm transition duration-750 ease-in-out z-100'> 
 
-          <h2> Home </h2>
-          <h2> Menu </h2>
-          <h2> Reviews </h2>
-          <h2> Contact Us </h2>
+          <h2 className='cursor-pointer'> Home </h2>
+          <h2 className='cursor-pointer'> Menu </h2>
+          <h2 className='cursor-pointer'> Reviews </h2>
+          <h2 className='cursor-pointer'> Contact Us </h2>
 
         </nav>
 
@@ -68,7 +68,7 @@ function App() {
         </div>
         <div className='w-full h-100 bg-amber-100 text-center text-black grid grid-cols-1 grid-rows-[30px_auto_auto] place-items-center lg:grid-cols-2'   >
 
-            <h2 className=' border-2 pt-2 row-start-1 row-end-2 lg:col-start-1 col-end-3'> What Our Customers Have To Say </h2> 
+            <h2 className='pt-2 row-start-1 row-end-2 col-start-1 col-end-2 lg:col-end-3'> What Our Customers Have To Say </h2> 
 
             <ReviewCard/>
 
@@ -80,7 +80,7 @@ function App() {
         
         <div className='w-full h-auto bg-white text-black p-5'> 
           <h2 className='w-full text-center text-3xl'> Contact Us</h2>
-          <div className='lg:flex items-start justify-around pt-10'>
+          <div className='lg:flex items-start justify-center gap-40 pt-10'>
             <div className=''>
               <h2 className='text-2xl mt-3'> Noah's Vietnamese Fusion Cuisine </h2>
               <h2 className='underline mt-1'> 1327 W 18th St</h2>
